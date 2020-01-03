@@ -1,10 +1,13 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
+require.binding.pry
 # Call the method directors_database to retrieve the NDS
 require 'pp'
+
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
   puts pp nds
+  binding.pry
   pp nds
 end
 

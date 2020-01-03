@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
-require.binding.pry
+require 'pry'
 # Call the method directors_database to retrieve the NDS
 require 'pp'
 

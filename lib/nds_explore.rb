@@ -15,8 +15,8 @@ def print_first_directors_movie_titles
   row_index = 0
   movies = []
   while row_index < 1 do
-    
+
   end
-    
+
   end
 end
